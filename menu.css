@@ -1,0 +1,151 @@
+.quang-cao{
+    background-color: #4a79f6;
+    display: block;
+    text-align: center;
+}
+.danh-muc{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(0,0,0,.03);
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+   
+}
+a{
+    color: #0f1568;
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.search .logo{
+    width: 127px;
+    height: 40px;
+    margin-right: 80px;
+
+}
+.anh-giohang{
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+.form{
+    display: flex;
+    position: relative;
+}
+.form-control{
+    width: 500px;
+}
+.button{
+    background-color: rgba(255, 68, 0, 0.964);
+}
+section{
+    height: 300px;
+    width: 900px;
+    border: 1px solid #999;
+    position: relative;
+    background-color: #999;
+    display: flex;
+   padding-left: 100px;
+
+}
+.menu{
+    border: 1px solid #eeee;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    color: #0f1568;
+
+}
+.menu-con{
+    border: 1px solid #eeee;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    left: 100%;    
+    display: none;
+    background-color: white;
+    color: #0f1568;
+    
+}
+.ten {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "roboto", sans-serif;
+    position: relative;
+}
+.icon{
+    display: none;
+}
+.ten:hover{
+    color: orange;
+    background-color: #eeee;
+  
+}
+.ten:hover .icon{
+    display: block;
+    color: orange;
+}
+
+/* .menu-con{
+    display: none;
+    position:relative;
+     left: 0%;
+    /*width: 250px; */
+    /* height: 100%; */
+    
+    
+    
+
+.ten:hover .menu-con{
+    display: block;
+}
+.ten-con{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "roboto", sans-serif;
+    position: relative;
+}
+.ten-con:hover{
+    background-color: #eeee;
+
+}
+.menu-cuoi{
+    
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 300px;
+    height: 100%;
+    /* height: 100%; */
+    border: 2px solid #eeee;
+    /* display: block; */
+}
+.menu-cuoi ul{
+    position: absolute;
+    top: 0px;
+}
+.menu-cuoi ul a{
+    display: block;
+    font-family: "roboto", sans-serif;
+}
+.icon-con{
+    display: none;
+}
+.ten-con:hover .icon-con{
+    display: block;
+}
+.ten-con:hover .menu-cuoi {
+    display: block;
+}
